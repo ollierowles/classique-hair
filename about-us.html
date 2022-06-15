@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link href="https://fonts.googleapis.com/css?family=Lora|Ubuntu:300,400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="./index.js"></script>
+
+    </head>
+    <body> 
+        <header>
+            <div class="container container-flex">
+                <div class="site-title">
+                    <a href="index.html">
+                        <h1>CLASSIQUE HAIR</h1>
+                        <p class="subtitle">UNISEX HAIR SALON EST. 1967</p>
+                    </a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a class="current-page" href="about-us.html">About us</a></li>
+                        <li><a href="price-list.html">Price list</a></li>
+                    </ul>
+                </nav>
+            </div> <!-- / .container -->
+        </header>
+
+
+            <div class="container container-flex">
+                <main>
+                    <img src="img/back-right.jpg" class="image-full">
+                    <h2>10 minutes walk from Oxford station, we are right on the edge of the city centre, with lots of connections via public transport.</h2>
+
+                    <p><strong>Established in 1967,</strong> we have been cutting hair in Oxford for over 55 years! A family-run business which prides itself on friendly service and quality cuts and colours. 
+                        We are a unisex salon, on the outskirts of the centre of Oxford, offering a wide range of services to all hair types.</p>
+                    
+                    <p>We have 3 friendly stylists Lisa, Noriko and Denka, who are all experienced stylists</p>
+
+                    <h3>> How we started out</h3>
+                    <p><strong>Opened by Hilary in 1967 along Botley Road,</strong> we have been along Botley Road for over 55 years. We have many local customers who have been coming to our salon for years. We very much feel apart of the Botley community.</p>
+
+                    <h3>> How can I book</h3>
+                    <p>The best way to book an appointment is by calling us: <strong>01865 242134</strong></p>
+                    <p>We can also take bookings through walk-ins. <br/><br/> We are a <strong> 10 minute walk from Oxford station</strong> and <strong>20 minutes from Westgate shopping center</strong>.</p>
+                </main>
+                
+                <aside class="sidebar">
+                    <div class="sidebar-widget">
+
+                        <h2 class="widget-title">DIRECTIONS</h2>
+                        <p class="widget-body border-btm">
+                            117 Botley Road
+                            <br/>Oxford
+                            <br/>OX2 0HD
+                            <br/><br/>
+                            Tel: <strong> 01865 242134 </strong>
+                        </p>
+
+                        <h2 class="widget-title">OPENING TIMES</h2>
+                        <p class="widget-body">
+                            Monday: 10am-5pm
+                            <br/><br/>Tuesday: 10am-5pm
+                            <br/><br/>Wednesday: 10am-5pm
+                            <br/><br/>Thursday: 10am-5pm
+                            <br/><br/>Friday: 10am-5pm
+                            <br/><br/>Saturday: 10am-4pm
+                            <br/><br/>Sunday: Closed
+                            <br/><br/><strong>Late appointments available on request</strong>
+                        </p>
+                            <!--The div element for the map -->
+                        <div id="map"></div>
+
+                        <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+                        <script
+                        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD__a9sYMdSAKrct48E7bA0yrRWtNIkMN4&callback=initMap&libraries=&v=weekly"
+                        async
+                        ></script>            
+                    </div>
+                </aside>
+                    
+            </div>
+
+            <footer>
+                <p><strong>CLASSIQUE HAIR</strong></p>
+                <p>Designed by <a href="https://github.com/ollierowles" target="_blank">Ollie Rowles</a> | Copyright 2022</p>
+            </footer> 
+    </body>
+</html>
