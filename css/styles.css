@@ -28,6 +28,10 @@ img {
     margin-bottom: 1em;
 }
 
+.image-shift {
+    object-fit: cover;
+}
+
 .site-title a {
     text-decoration: none;
 }
