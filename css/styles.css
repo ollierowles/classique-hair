@@ -105,6 +105,10 @@ ul {
     margin-bottom: 2em;
 }
 
+.italic-title {
+    font-style: italic;
+}
+
 /* =================
 Layout
 ================= */
